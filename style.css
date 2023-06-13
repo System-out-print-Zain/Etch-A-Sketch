@@ -21,6 +21,17 @@ body {
     margin: 0px 200px;
 }
 
+#color-side > button {
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+#color-side > button:hover {
+    box-shadow: 3px 3px grey;
+}
+
 #board {
     width: 450px;
     height: 450px;
