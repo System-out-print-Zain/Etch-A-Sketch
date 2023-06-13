@@ -27,11 +27,12 @@ body {
     background-color: aliceblue;
     display: flex;
     flex-wrap: wrap;
+    border: solid 1px;
 }
 
 .pixel {
-    width: calc(445px/4);
-    height: calc(445px/4);
+    width: calc(446px/4);
+    height: calc(446px/4);
     flex-shrink: 0;
     border: solid 0.5px;
 }
