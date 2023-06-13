@@ -27,7 +27,8 @@ body {
     background-color: aliceblue;
     display: flex;
     flex-wrap: wrap;
-    border: solid 1px;
+    box-shadow: 3px 3px;
+    margin-bottom: 30px;
 }
 
 .pixel {
