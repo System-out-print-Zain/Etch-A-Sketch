@@ -17,8 +17,8 @@ body {
 #main {
     height: 615px;
     display: flex;
-    justify-content: space-between;
-    margin: 0px 200px;
+    justify-content: space-around;
+    padding: 0px 200px;
 }
 
 #color-side > button {
