@@ -35,7 +35,7 @@ body {
 #board {
     width: 450px;
     height: 450px;
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     box-shadow: 3px 3px;
@@ -47,6 +47,19 @@ body {
     height: calc(446px/4);
     flex-shrink: 0;
     border: solid 0.5px;
+}
+
+#board-side-btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#clear-btn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-family: 'Gill Sans';
+    font-size: 15px;
 }
 
 #footer {
