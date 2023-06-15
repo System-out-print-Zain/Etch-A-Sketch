@@ -22,3 +22,19 @@ function makePaintable(pixelLst)
         pixelLst[i].style.backgroundColor = paintColor);
     }
 }
+
+makePaintable(pixels);
+
+/* Clearing */
+
+const clearBtn = document.querySelector("#clear-btn");
+
+function clearBoard()
+{
+    for (let i = 0; i < pixels.length; i++)
+    {
+        pixels[i].style.backgroundColor = 'white';
+    }
+}
+
+clearBtn.addEventListener('click', clearBoard);
