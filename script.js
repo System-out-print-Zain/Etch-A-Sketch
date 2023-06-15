@@ -38,3 +38,12 @@ function clearBoard()
 }
 
 clearBtn.addEventListener('click', clearBoard);
+
+/* Dimension Changing */
+
+let dim;  // Specifies the dimensions of the grid
+
+const slider = document.querySelector("#dim-slider");
+slider.addEventListener('mouseup', () => dim = slider.value);
+
+
