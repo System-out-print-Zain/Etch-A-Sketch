@@ -9,3 +9,16 @@ for (let i = 0; i < colorBtns.length; i++)
 {
     colorBtns[i].addEventListener('click', () => paintColor = colorBtns[i].id);
 }
+
+/* Painting */
+
+const pixels = document.querySelectorAll(".pixel");
+
+function makePaintable(pixelLst)
+{
+    for (let i = 0; i < pixelLst.length; i++)
+    {
+        pixelLst[i].addEventListener('mouseover', () => 
+        pixelLst[i].style.backgroundColor = paintColor);
+    }
+}
