@@ -50,6 +50,7 @@ body {
     height: calc(446px/4);
     flex-shrink: 0;
     border: solid 0.5px;
+    border-color: lightgrey;
     cursor: crosshair;
 }
 
